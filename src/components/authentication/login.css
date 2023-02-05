@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+.containerLogin{
+  background-color: #1b1f27;
+  font-family: 'Poppins', sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  color: #cbd0f7
+}
+
+.card{
+  background-color: none;
+}
+
+.area-logo{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181920;
+  width: 450px;
+  max-height: 620px;
+  border-radius: 10px;
+}
+
+.login .form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 30px;
+}
+.login .input{
+  background-color: #252a34;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+
+}
+
+.login img{
+  width: 85px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.input::placeholder{
+  font-size: 14px;
+}
+
+.form .bt{
+  display: block;
+  background-color: #5568fe;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a{
+  color: #5568fe;
+  text-decoration: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* .containerLogin{
+background: url("/Beira-Port-Cornelder.png");
+opacity: 1;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;   
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+}
+.containerLogin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+@media (max-width: 1024px) {
+	.containerLogin{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+  .Cornelder-logo{
+    width: 90%;
+  }
+	
+	.containerLogin{
+    background: url("/Beira-Port-Cornelder02.png");
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+} */

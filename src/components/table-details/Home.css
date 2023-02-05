@@ -1,0 +1,32 @@
+.styled-table{
+  font-size: 0.95rem;
+  font-family: sans-serif;
+  -moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+  border: 1px solid #d1d1d1;
+  width: 100%;
+
+}
+
+.styled-table tr td{
+  width: auto;
+  width: 150px;
+  padding: 12px 15px;
+  border-bottom: 0.1px solid #d1d1d1;
+  border-left: 0.1px solid #d1d1d1;
+  text-align: center;
+
+}
+.styled-table tr td .btn{
+  width: auto;
+  text-align: center;
+}
+
+.btn-sm{
+  opacity: 0.3;
+}
+
+.btn-sm:hover{
+  opacity: 1;
+}
