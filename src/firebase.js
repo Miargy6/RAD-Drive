@@ -6,12 +6,12 @@ import "firebase/database";
 
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyD9O0cqSDwMm6bq8lq9jgPXX2xLp1iRs2g",
-  authDomain: "rad-drive-9596f.firebaseapp.com",
-  projectId: "rad-drive-9596f",
-  storageBucket: "rad-drive-9596f.appspot.com",
-  messagingSenderId: "501462829820",
-  appId: "1:501462829820:web:11011cf7085adae33d6579"
+  apiKey: "AIzaSyBmJjExczVOuGiL7jZZBkvu56D1EpDji0k",
+  authDomain: "raddrive-15c2b.firebaseapp.com",
+  projectId: "raddrive-15c2b",
+  storageBucket: "raddrive-15c2b.appspot.com",
+  messagingSenderId: "35797809840",
+  appId: "1:35797809840:web:68184496c6ba21eaff5975"
   // measurementId: "G-BBLD1BNKHX"
   // databaseURL: "https://cornelderplatform-default-rtdb.firebaseio.com",
 });
